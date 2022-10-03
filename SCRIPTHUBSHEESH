@@ -1,22 +1,4 @@
-pcall(function()
-       game.StarterGui:SetCore("SendNotification", {
-        Title = 'Crew Crasher was PATCHED';
-        Text = 'OOF';
-        Duration = 20;
-       })
-  if not game.Players.LocalPlayer:IsInGroup(12052955) then
-    coroutine.resume(coroutine.create(function()
-       wait(10)
-       game.StarterGui:SetCore("SendNotification", {
-        Title = 'you are NOT in the group it will still work.';
-        Text = 'Made by rodizzy#0001 make sure to join the discord group copied in your clipboard!';
-        Duration = 20;
-       })
-       setclipboard('https://discord.gg/dcRkcK9Ppf')
-    end))
-  end
-end)
-    
+
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("Synus Hub v1 ", "DarkTheme")
     
